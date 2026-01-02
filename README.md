@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Credit
 
-## Getting Started
+> Temporary placeholder for credits, later I'll add separate /credits page
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Photo by Lisa from Pexels: https://www.pexels.com/photo/leather-chairs-in-restaurant-2193600/
+- Photo by <a href="https://unsplash.com/@moisamihai092?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mihai Moisa</a> on <a href="https://unsplash.com/photos/black-chairs-Djtc1T38-GY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@kjrai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kavita Joshi Rai</a> on <a href="https://unsplash.com/photos/croissant-on-top-of-stainless-steel-tray-lE5O9DktAQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@minkmingle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mink Mingle</a> on <a href="https://unsplash.com/photos/close-up-photography-of-baked-treats-on-tray-qZ5lPCPvdXE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by Alina Matveycheva: https://www.pexels.com/photo/sweet-cakes-and-coffee-on-table-20818064/
+- Photo by <a href="https://unsplash.com/@tabithaturnervisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">tabitha turner</a> on <a href="https://unsplash.com/photos/white-ceramic-cup-with-saucer-on-brown-wooden-table-3n3mPoGko8g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- <a href="https://www.freepik.com/free-photo/happy-colleagues-sitting-near-coffee-while-work-with-laptops_8073011.htm#fromView=search&page=1&position=2&uuid=d38e89d7-407a-41c7-a413-7c5778707e56&query=cafe+meeting+room">Image by drobotdean on Freepik</a>
+- <a href="https://www.freepik.com/free-photo/concentrated-young-woman-drinking-coffee-working_8072942.htm">Image by drobotdean on Freepik</a>
+- <a href="https://www.freepik.com/free-photo/3d-rendering-business-meeting-room-office-building_18320767.htm">Image by dit26978 on Freepik</a>
+- Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-coffee-late-in-mug-on-table-zUNs99PGDg0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@bhuwan_bansal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bhuwan Bansal</a> on <a href="https://unsplash.com/photos/man-in-black-and-white-polo-shirt-playing-guitar-Imq-jC1zPMM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@abiwin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Abiwin Krisna</a> on <a href="https://unsplash.com/photos/a-group-of-people-standing-next-to-each-other-qYrOqGunsQA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@sidsaxena?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sid Saxena</a> on <a href="https://unsplash.com/photos/a-group-of-people-sitting-at-tables-in-a-restaurant-EKO67rTDwQ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@marcus_ganahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcus Ganahl</a> on <a href="https://unsplash.com/photos/brown-wooden-table-and-chairs-ZqlQ4HovZ8U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@pafuxu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kouji Tsuru</a> on <a href="https://unsplash.com/photos/a-restaurant-with-wooden-tables-and-wooden-chairs-85P3k4340U8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
