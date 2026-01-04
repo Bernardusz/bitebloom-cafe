@@ -14,7 +14,7 @@ export default function ImageContainer({
 	imageSrc, imageAlt, className, rounded
 }: imageContainerProps){
 	return (
-		<div className={className}>
+		<div className={className + " relative"}>
 			<Image
 				src={imageSrc}
 				alt={imageAlt}

@@ -1,6 +1,7 @@
 import CallToAction from "@/components/sections/callToAction";
 import HeroSection from "@/components/sections/heroSection";
 import { CarouselComponent } from "@/components/shared/carousel";
+import IconTitleParagraph from "@/components/shared/IconTitleParagraph";
 import ImageContainer, { defaultImageClass } from "@/components/shared/image";
 import MainCard from "@/components/shared/mainCard";
 import TestimonyCard from "@/components/shared/testimonyCard";
@@ -118,7 +119,7 @@ export default function Home() {
             <HeroSection />
             <TitleSection title="A freshly roasted coffee" flexOrGrid="flex">
                 <div className="gap-8 xl:gap-16 items-start xl:items-center flex flex-col xl:flex-row h-100 w-full">
-                    <div className="relative h-full w-full xl:w-1/2">
+                    <div className="relative h-full w-full">
                         <Image
                             src="/images/index-coffee.jpg"
                             alt="An image of coffee"
@@ -186,7 +187,7 @@ export default function Home() {
 					className="w-full px-16 justify-center items-center flex"
 				>
 					<Button className="btn-primary w-full">
-						Book one now
+						Book one now!
 					</Button>
 				</Link>
 				<Link
@@ -205,14 +206,12 @@ export default function Home() {
                 className="bg-muted p-16 xl:grid-cols-4"
             >
 				{indexData.whyChooseUs.map((reason, index) => (
-					<div className="flex flex-row gap-4 items-start" key={index}>
-						{reason.icon}
-						<TitleParagraph
-							className="w-full max-w-72"
-							title={reason.title}
-							text={reason.text}
-						/>
-					</div>
+					<IconTitleParagraph
+						key={index}
+						icon={reason.icon}
+						title={reason.title}
+						text={reason.text}
+					/>
 				))}
             </TitleSection>
 			<TitleSection

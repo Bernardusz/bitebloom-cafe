@@ -11,13 +11,13 @@ export default function Header() {
     const toggleSidebar = useSidebar((state) => state.toggleSidebar);
 	const isBelowXl = useIsBelowXl()
     return (
-        <header className="fixed top-0 left-0 z-50 h-24 w-full border bg-background px-8">
+        <header className="fixed top-0 left-0 z-50 h-20 w-full border bg-background px-8 py-3">
 			{isBelowXl ? (
 				<div className="flex w-full flex-row items-center justify-between">
 					<Link href="/">
 						<BiteBloomLogo className="text-foreground aspect-square h-16 w-16" />
 					</Link>
-					<Menu onClick={toggleSidebar} size={40}/>
+					<Menu className="hover:text-primary" onClick={toggleSidebar} size={40}/>
 				</div> 
 			) : (
 				<div className="relative flex h-full items-center">

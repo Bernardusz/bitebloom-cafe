@@ -43,7 +43,7 @@ export default function MainCard({
                             src={imageSrc}
                             alt={imageAlt ?? "an image"}
                             fill
-                            objectFit="cover"
+                            className="object-cover"
                         />
                     </div>
                 </CardContent>

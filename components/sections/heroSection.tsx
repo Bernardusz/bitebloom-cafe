@@ -1,3 +1,4 @@
+import TitleParagraph from "@/components/shared/titleParagraph";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,13 +15,11 @@ export default function HeroSection() {
                 />
             </div>
             <div className="w-full xl:w-1/2 px-8 xl:px-24 flex flex-col gap-6">
-                <div className="flex flex-col gap-2">
-                    <h1 className="font-heading">Bitebloom Cafe</h1>
-                    <p>
-                        A modern café focused on comfort, quality dining, and
-                        thoughtful amenities.
-                    </p>
-                </div>
+				<TitleParagraph
+					variant="h1"
+					title="Bitebloom Cafe"
+					text="A modern café focused on comfort, quality dining, and thoughtful amenities."
+				/>
                 <Link href="/products">
                     <Button className="btn-primary max-w-32 font-heading">
                         {" "}

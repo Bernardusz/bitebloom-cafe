@@ -3,7 +3,6 @@
 import BiteBloomLogo from "@/components/shared/logo";
 import ToggleMode from "@/components/shared/toggleMode";
 import useSidebar from "@/context/useSidebar";
-import { useIsMobile } from "@/hooks/use-mobile";
 import clsx from "clsx";
 import Link from "next/link";
 import {
@@ -14,12 +13,13 @@ import {
     Linkedin,
     Github,
 } from "lucide-react";
+import { useIsBelowXl } from "@/hooks/use-xl";
 
 export default function Sidebar() {
     const { isOpen, toggleSidebar } = useSidebar();
-    const isMobile = useIsMobile();
+    const isBelowXl =  useIsBelowXl();
     return (
-        isMobile && (
+        isBelowXl && (
             <div
                 className={clsx({
                     "flex fixed inset-0 z-50 top-0 w-full right-0 transition-transform duration-500": true,
