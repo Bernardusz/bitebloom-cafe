@@ -1,66 +1,240 @@
+import CallToAction from "@/components/sections/callToAction";
+import HeroSection from "@/components/sections/heroSection";
+import { CarouselComponent } from "@/components/shared/carousel";
+import ImageContainer, { defaultImageClass } from "@/components/shared/image";
+import MainCard from "@/components/shared/mainCard";
+import TestimonyCard from "@/components/shared/testimonyCard";
+import TitleParagraph from "@/components/shared/titleParagraph";
+import TitleSection from "@/components/shared/titleSection";
+import { Button } from "@/components/ui/button";
+import { Armchair, Coffee, Croissant, Euro } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+
+const indexData = {
+	bestSellers: [
+		{
+			title:"Croissant",
+			text:"A freshly baked, crisp, and buttery croissant.",
+			imageSrc:"/images/croissant.jpg",
+			imageAlt:"An image of Croissant",
+			type:"flex-col",
+		},
+		{
+			title:"Pain Au Chocolat",
+			text: "A warm, buttery, and flaky pain au chocolat with rich chocolate that melts in your mouth.",
+			imageSrc:"/images/pain-au-chocolat.jpg",
+			imageAlt:"An image of Pain Au Chocolat",
+			type:"flex-col",
+		},
+		{
+			title:"Opera Cake",
+			text:"A rich blend of chocolate and coffee layered into pure happiness.",
+			imageSrc:"/images/opera-cake.jpg",
+			imageAlt:"An image of Opera Cake",
+			type:"flex-col",
+		},
+		{
+			title:"Latte",
+			text:"A creamy, smooth, and comforting coffee to start your day right.",
+			imageSrc:"/images/latte.jpg",
+			imageAlt:"An image of Latte",
+			type:"flex-col",
+		},
+		
+	],
+	meetingRoom: [
+		{
+			src:"/images/index-meeting-room.jpg",
+			alt:"An image of the meeting room",
+		},
+		{
+			src:"/images/index-meeting-room-2.jpg",
+			alt:"An image of the meeting room",
+		},
+		{
+			src:"/images/index-meeting-room-3.jpg",
+			alt:"An image of the meeting room",
+
+		}
+	],
+	whyChooseUs: [
+		{
+			icon: <Coffee size={48}/>,
+			title:"A Freshly roasted coffee",
+			text:"Freshly roasted coffee every morning, made from high-quality beans to bring out the best flavors.",
+		},
+		{
+			icon: <Croissant size={48}/>,
+			title:"Tasty and delicious pastry",
+			text:"Our pastries are crafted with great attention to taste, texture, and presentation."
+		},
+		{
+			icon: <Euro size={48}/>,
+			title:"Affordable foods",
+			text:"Delicious food doesn’t have to be expensive. We keep our menu affordable so both you—and your wallet—can enjoy life."
+		},
+		{
+			icon: <Armchair size={48}/>,
+			title:"Top tier dining experience",
+			text:"A top-tier dining experience, guaranteed. Fast Wi-Fi, comfortable seating, great coffee, and a welcoming atmosphere."
+		},
+	],
+	testimony: [
+		{
+			title:"Absolutely stunning!",
+			text:"The place was amazing! It has a nice atmosphere, friendly staff, and a really great dining experience, overall 5/5! Would visit again!",
+			name:"Bernardusz",
+			role:"A software engineer",
+			rating:5,
+		},
+		{
+			title:"The Coffee is tasty",
+			text:"There's a wide range of coffee variety from lattee to Americano, and all of them are delicious.",
+			name:"Stanislaus",
+			role:"A business manager",
+			rating:4,
+		},
+		{
+			title:"The pastry are delicious!",
+			text:"There are just so many pastries and all of them are delicious! Pain au Chocolat, Bagguete and Croissant, all are delicious!",
+			name:"Anna",
+			role:"An HR manager",
+			rating:5,
+		},
+		{
+			title: "The menu is so affordable.",
+			text: "Man, I never thought i would be able to afford delicious pastries and coffee as a college student, but Bitebloom proved me wrong!",
+			name: "Christian",
+			role: "A college student",
+			rating: 5
+		}
+	]
+}
 
 export default function Home() {
     return (
-        <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-heading dark:bg-black">
-            <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-                <Image
-                    className="dark:invert"
-                    src="/next.svg"
-                    alt="Next.js logo"
-                    width={100}
-                    height={20}
-                    priority
-                />
-                <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-                    <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-                        To get started, edit the page.tsx file.
-                    </h1>
-                    <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400 font-main">
-                        Looking for a starting point or more instructions? Head
-                        over to{" "}
-                        <a
-                            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                            className="font-medium text-zinc-950 dark:text-zinc-50"
-                        >
-                            Templates
-                        </a>{" "}
-                        or the{" "}
-                        <a
-                            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                            className="font-medium text-zinc-950 dark:text-zinc-50"
-                        >
-                            Learning
-                        </a>{" "}
-                        center.
-                    </p>
-                </div>
-                <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-                    <a
-                        className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+        <main className="page">
+            <HeroSection />
+            <TitleSection title="A freshly roasted coffee" flexOrGrid="flex">
+                <div className="gap-8 xl:gap-16 items-start xl:items-center flex flex-col xl:flex-row h-100 w-full">
+                    <div className="relative h-full w-full xl:w-1/2">
                         <Image
-                            className="dark:invert"
-                            src="/vercel.svg"
-                            alt="Vercel logomark"
-                            width={16}
-                            height={16}
+                            src="/images/index-coffee.jpg"
+                            alt="An image of coffee"
+                            fill
+                            className="object-cover rounded-xl"
                         />
-                        Deploy Now
-                    </a>
-                    <a
-                        className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-                        href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Documentation
-                    </a>
+                    </div>
+                    <TitleParagraph
+                        variant="h4"
+                        title="Freshly Roasted. Thoughtfully Served."
+                        text="Every cup at Bitebloom is crafted from freshly roasted beans, brewed with care in a space designed to slow you down and let you bloom."
+                    />
                 </div>
-            </main>
-        </div>
+            </TitleSection>
+            <TitleSection title="Our Best Sellers" centeredTitle>
+                <CarouselComponent className="gap-4">
+					{indexData.bestSellers.map((bestSeller, index) => (
+						<MainCard
+							key={index}
+							title={bestSeller.title}
+							text={bestSeller.text}
+							imageSrc={bestSeller.imageSrc}
+							imageAlt={bestSeller.imageAlt}
+							type={bestSeller.type as "flex-col" | "flex-row"} 
+							className="w-full h-full"
+						/>
+					))}
+                </CarouselComponent>
+            </TitleSection>
+            <TitleSection
+                title="Meeting Room"
+                className="w-full flex flex-col gap-8 xl:flex-row"
+            >
+                <CarouselComponent hideOnDesktop>
+					{indexData.meetingRoom.map((image, index) => (
+						<ImageContainer
+							key={index}
+							imageSrc={image.src}
+							imageAlt={image.alt}
+							className={defaultImageClass}
+							rounded
+						/>
+					))}
+                </CarouselComponent>
+                <div className="hidden xl:flex flex-col w-full h-fit gap-8">
+					{indexData.meetingRoom.map((image, index) => (
+						<ImageContainer
+							key={index}
+							imageSrc={image.src}
+							imageAlt={image.alt}
+							className="w-full relative aspect-4/3"
+							rounded
+						/>
+					))}
+				</div>
+				<TitleParagraph
+					className="xl:sticky top-24 h-fit"
+					title="A meeting room for your needs."
+					text="A calm, comfortable, and affordable meeting room designed for focused work, meaningful discussions, and collaboration—served with great coffee."
+				/>
+            </TitleSection>
+            <div className="flex flex-col w-full xl:flex-row -mt-16 gap-2">
+				<Link
+					href="/contact"
+					className="w-full px-16 justify-center items-center flex"
+				>
+					<Button className="btn-primary w-full">
+						Book one now
+					</Button>
+				</Link>
+				<Link
+					href="/contact"
+					className="w-full px-16 justify-center items-center flex"
+				>
+					<Button variant="secondary" className="btn-primary w-full">
+						Learn more
+					</Button>
+				</Link>
+			</div>
+            <TitleSection
+                title="Why choose us?"
+                flexOrGrid="grid"
+                noPadding
+                className="bg-muted p-16 xl:grid-cols-4"
+            >
+				{indexData.whyChooseUs.map((reason, index) => (
+					<div className="flex flex-row gap-4 items-start" key={index}>
+						{reason.icon}
+						<TitleParagraph
+							className="w-full max-w-72"
+							title={reason.title}
+							text={reason.text}
+						/>
+					</div>
+				))}
+            </TitleSection>
+			<TitleSection
+                title="Our Testimony"
+                className="w-full flex flex-col gap-8 xl:flex-row"
+				paragraph="Don't just take our words, take theirs as well!"
+            >
+                <CarouselComponent>
+					{indexData.testimony.map((testimony, index) => (
+						<TestimonyCard
+							key={index}
+							title={testimony.title}
+							text={testimony.text}
+							name={testimony.name}
+							role={testimony.role}
+							rating={testimony.rating as 1 | 2 | 3 | 4 | 5}
+							className="h-full"
+						/>
+					))}
+                </CarouselComponent>
+			</TitleSection>
+			<CallToAction/>
+        </main>
     );
 }

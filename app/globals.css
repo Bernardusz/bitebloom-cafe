@@ -79,7 +79,7 @@
     --sidebar-accent-foreground: hsl(10, 10%, 5%);
     --sidebar-border: hsl(10, 10%, 75%);
     --sidebar-ring: hsl(10, 10%, 75%);
-    font-size: clamp(12px, 0.4vw + 0.9rem, 16px);
+    font-size: clamp(12px, 0.4vw + 0.9rem, 20px);
 }
 
 .dark {
@@ -124,42 +124,42 @@
         @apply bg-background text-foreground;
     }
     h1 {
-        @apply text-4xl font-bold;
+        @apply text-4xl font-bold font-heading;
     }
     h2 {
-        @apply text-2xl font-bold;
+        @apply text-2xl font-bold font-heading;
     }
     h3 {
-        @apply text-xl font-semibold;
+        @apply text-xl font-semibold font-heading;
     }
     h4 {
-        @apply text-lg font-semibold;
+        @apply text-lg font-semibold font-heading;
     }
     p {
-        @apply text-base font-normal text-accent-foreground;
+        @apply text-base font-normal text-accent-foreground font-main;
     }
 }
 
 @layer components {
     .page {
-        @apply flex h-fit w-full flex-col items-center justify-center overflow-hidden md:pt-4;
+        @apply flex h-fit w-full flex-col items-center justify-center md:pt-4 gap-8;
     }
     .p-deemphasize {
-        @apply text-muted-foreground text-sm font-normal;
+        @apply text-muted-foreground text-sm font-normal font-main;
     }
     .link-primary {
         @apply text-primary hover:text-primary/90 font-medium;
     }
     .btn-primary {
-        @apply min-h-8 min-w-16 hover:scale-105 transition-transform duration-300;
+        @apply min-h-8 min-w-24 hover:scale-105 transition-transform duration-300;
     }
     .section {
-        @apply max-w-400 px-8 py-12 md:px-12 md:py-16;
+        @apply max-w-400 px-8 py-12 md:px-12 md:py-16 relative w-full;
     }
     .hover-transform {
         @apply transition-transform duration-300 hover:shadow-2xl motion-safe:hover:scale-105;
     }
-	.link-btn {
-		@apply bg-primary text-primary-foreground hover:bg-primary/90
-	}
+    .link-btn {
+        @apply bg-primary text-primary-foreground hover:bg-primary/90 min-h-8 min-w-16 hover:scale-105 transition-transform duration-300 h-9 px-4 py-2 has-[>svg]:px-3;
+    }
 }

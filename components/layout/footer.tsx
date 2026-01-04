@@ -2,7 +2,7 @@ import BiteBloomLogo from "@/components/shared/logo";
 import Link from "next/link";
 export default function Footer() {
     return (
-        <footer className="flex w-full flex-col items-center justify-center border-y">
+        <footer className="flex w-full flex-col items-center justify-center border-y mt-20">
             <div className="mt-4 flex w-full max-w-400 flex-col justify-center gap-4 p-12">
                 <div className="flex h-fit w-full flex-col gap-6 xl:flex-row">
                     <div className="flex flex-col gap-2 xl:w-1/2">
