@@ -77,7 +77,7 @@ const aboutData = {
 export default function About() {
     return (
         <main className="page">
-			<section className="section flex flex-col xl:flex-row gap-8 items-center">
+			<section className="section flex flex-col xl:flex-row gap-8 items-start xl:items-center">
 				<ImageContainer
 					imageSrc="/images/about-hero.jpg"
 					imageAlt="Hero section's images"
@@ -102,7 +102,7 @@ export default function About() {
 						title="Meet Our Founder (Conceptual)"
 						text="Founder is a fictional founder created for this portfolio project. Bitebloom Cafe is a conceptual brand designed to showcase UI/UX, frontend architecture, and product storytelling."
 					/>
-					<div className="grid gap-4 xl:grid-cols-2">
+					<div className="grid gap-4 md:grid-cols-2">
 						{aboutData.founderDatas.map((data, index) => (
 							<IconTitleParagraph
 								key={index}
@@ -130,7 +130,7 @@ export default function About() {
 						className="xl:max-w-5/10"
 						text="Bitebloom is imagined as a collaborative space powered by skilled baristas, pastry enthusiasts, and hospitality professionals who care deeply about craft and community."
 					/>
-					<div className="grid xl:grid-cols-2 gap-4">
+					<div className="grid md:grid-cols-2 gap-4">
 						{aboutData.teamDatas.map((data, index) => (
 							<IconTitleParagraph
 								key={index}

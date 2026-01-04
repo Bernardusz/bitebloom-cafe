@@ -35,10 +35,12 @@ export default function Sidebar() {
                     <div className="flex flex-col gap-8">
                         <div className="flex flex-col w-full">
                             <div className="flex flex-row w-full justify-between gap-4 items-center ">
-                                <div className="flex flex-row w-full justify-start gap-2 items-center">
-                                    <BiteBloomLogo className="size-12" />
-                                    <h4>Bitebloom Cafe</h4>
-                                </div>
+								<Link onClick={toggleSidebar} href="/">
+									<div className="flex flex-row w-full justify-start gap-2 items-center" >
+										<BiteBloomLogo className="size-12" />
+										<h4>Bitebloom Cafe</h4>
+									</div>
+								</Link>
                                 <ToggleMode />
                             </div>
                             <p>A warm place to gather and bloom</p>
@@ -48,13 +50,13 @@ export default function Sidebar() {
                                 <p className="p-deemphasize">Primary</p>
                                 <ul className="flex flex-col gap-2">
                                     <li>
-                                        <Link href="/">Home</Link>
+                                        <Link onClick={toggleSidebar} href="/">Home</Link>
                                     </li>
                                     <li>
-                                        <Link href="/products">Products</Link>
+                                        <Link onClick={toggleSidebar} href="/products">Products</Link>
                                     </li>
                                     <li>
-                                        <Link href="/location">Location</Link>
+                                        <Link onClick={toggleSidebar} href="/location">Location</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -62,10 +64,10 @@ export default function Sidebar() {
                                 <p className="p-deemphasize">Secondary</p>
                                 <ul className="flex flex-col gap-2">
                                     <li>
-                                        <Link href="/about">About</Link>
+                                        <Link onClick={toggleSidebar} href="/about">About</Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">Contact</Link>
+                                        <Link onClick={toggleSidebar} href="/contact">Contact</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -78,6 +80,7 @@ export default function Sidebar() {
                             <div className="flex flex-col justify-center gap-2">
                                 <Link
                                     className="flex flex-row gap-2 items-center"
+									onClick={toggleSidebar}
                                     href="/products"
                                 >
                                     <Croissant size={20} />
@@ -86,11 +89,13 @@ export default function Sidebar() {
                                 <Link
                                     className="flex flex-row gap-2 items-center"
                                     href="/location"
+									onClick={toggleSidebar}
                                 >
                                     <MapPin size={20} />
                                     <p>Find Us in Debrecen</p>
                                 </Link>
                                 <Link
+									onClick={toggleSidebar}
                                     className="flex flex-row gap-2 items-center"
                                     href="/contact"
                                 >
@@ -110,13 +115,14 @@ export default function Sidebar() {
                         </p>
                         <hr className="w-full" />
                         <div className="flex flex-row gap-8 px-4 w-full justify-center">
-                            <Link href="#">
+                            <Link onClick={toggleSidebar} href="#">
                                 <Instagram className="hover:text-primary transition-colors" />
                             </Link>
-                            <Link href="#">
+                            <Link onClick={toggleSidebar} href="#">
                                 <Linkedin className="hover:text-primary transition-colors" />
                             </Link>
                             <a
+								onClick={toggleSidebar}
                                 target="_blank"
                                 rel="noopener"
                                 href="https://github.com/Bernardusz/bitebloom-cafe"

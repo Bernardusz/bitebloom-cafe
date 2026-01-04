@@ -2,9 +2,10 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import TitleParagraph from "@/components/shared/titleParagraph";
-export default function CallToAction (){
+import clsx from "clsx";
+export default function CallToAction ({withoutSecondary}: {withoutSecondary?:boolean}){
     return (
-        <div className="flex flex-col xl:flex-row w-full h-140 px-16 gap-8 xl:gap-0">
+        <div className="flex flex-col xl:flex-row w-full h-140 px-8 gap-8 xl:gap-0">
 			<div className="relative h-full w-full xl:w-1/2">
 				<Image
 					src="/images/cta.jpg"
@@ -22,21 +23,28 @@ export default function CallToAction (){
 					/>
             	</div>
             <div className="flex w-full flex-row justify-center gap-12 px-8">
-                <Link href="/location">
+                <Link href="/location" className={clsx({
+					"w-full": withoutSecondary
+				})}>
 					<Button
-						className="btn-primary"
+						className={clsx({
+							"btn-primary": true,
+							"w-full": withoutSecondary
+						})}
 					>
 						Visit us
 					</Button>
 				</Link>
-				<Link href="/">
-					<Button
-						variant="secondary"
-                    	className="btn-primary"
-                	>
-                    Learn more
-                </Button>
-				</Link>
+				{!withoutSecondary && (
+					<Link href="/products">
+						<Button
+							variant="secondary"
+							className="btn-primary"
+						>
+							Learn more
+						</Button>
+					</Link>
+				)}
             </div>
 			</div>
         </div>

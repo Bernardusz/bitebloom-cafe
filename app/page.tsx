@@ -15,7 +15,7 @@ import Link from "next/link";
 const indexData = {
 	bestSellers: [
 		{
-			title:"Croissant",
+			title:"Butter Croissant",
 			text:"A freshly baked, crisp, and buttery croissant.",
 			imageSrc:"/images/croissant.jpg",
 			imageAlt:"An image of Croissant",
@@ -184,7 +184,7 @@ export default function Home() {
             <div className="flex flex-col w-full xl:flex-row -mt-16 gap-2">
 				<Link
 					href="/contact"
-					className="w-full px-16 justify-center items-center flex"
+					className="w-full px-10 xl:px-16 justify-center items-center flex"
 				>
 					<Button className="btn-primary w-full">
 						Book one now!
@@ -192,7 +192,7 @@ export default function Home() {
 				</Link>
 				<Link
 					href="/contact"
-					className="w-full px-16 justify-center items-center flex"
+					className="w-full xl:px-16 justify-center items-center flex px-10"
 				>
 					<Button variant="secondary" className="btn-primary w-full">
 						Learn more
