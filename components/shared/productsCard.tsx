@@ -13,7 +13,7 @@ export type mainCardProps = {
     imageAlt: string;
     title: string;
     text: string;
-	price: number
+    price: number;
     className?: string;
 };
 
@@ -23,7 +23,7 @@ export default function ProductsCard({
     title,
     text,
     className,
-	price,
+    price,
     ...props
 }: mainCardProps) {
     return (
@@ -52,10 +52,10 @@ export default function ProductsCard({
                         <p>{text}</p>
                     </CardDescription>
                 </div>
-				<div className="flex flex-row gap-2 items-center">
-					<Euro size={32}/>
-					<h2 className="font-heading">{price}</h2>
-				</div>
+                <div className="flex flex-row gap-2 items-center">
+                    <Euro size={32} />
+                    <h2 className="font-heading">{price}</h2>
+                </div>
             </CardHeader>
         </Card>
     );

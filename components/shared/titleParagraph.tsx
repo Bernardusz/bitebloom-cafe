@@ -11,11 +11,11 @@ export default function TitleParagraph({
     className,
     variant = "h3",
 }: paragraphProps) {
-	const Tag = variant
+    const Tag = variant;
     return (
         <div className={`flex flex-col justify-items-start gap-2 ${className}`}>
             <Tag className="text-left">{title}</Tag>
-			<p>{text}</p>
+            <p>{text}</p>
         </div>
     );
 }

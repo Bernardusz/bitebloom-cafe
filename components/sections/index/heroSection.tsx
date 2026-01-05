@@ -15,11 +15,11 @@ export default function HeroSection() {
                 />
             </div>
             <div className="w-full xl:w-1/2 px-8 xl:px-24 flex flex-col gap-6">
-				<TitleParagraph
-					variant="h1"
-					title="Bitebloom Cafe"
-					text="A modern café focused on comfort, quality dining, and thoughtful amenities."
-				/>
+                <TitleParagraph
+                    variant="h1"
+                    title="Bitebloom Cafe"
+                    text="A modern café focused on comfort, quality dining, and thoughtful amenities."
+                />
                 <Link href="/products">
                     <Button className="btn-primary max-w-32 font-heading">
                         {" "}

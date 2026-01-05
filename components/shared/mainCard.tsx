@@ -51,7 +51,7 @@ export default function MainCard({
             <CardHeader className={`flex ${type} w-full justify-between gap-4`}>
                 <div className="flex flex-col gap-4">
                     <CardTitle>
-                        <h4>{title}</h4>
+                        <h3>{title}</h3>
                     </CardTitle>
                     <CardDescription>
                         <p>{text}</p>

@@ -31,7 +31,7 @@ export default function TitleSection({
         >
             {paragraph ? (
                 <TitleParagraph
-                    variant="h3"
+                    variant="h2"
                     title={title}
                     text={paragraph}
                     className={clsx({
@@ -39,11 +39,11 @@ export default function TitleSection({
                     })}
                 />
             ) : (
-                <h3
+                <h2
                     className={`${centeredTitle && "text-center"} ${noPadding ? "pl-8 md:px-12" : ""}`}
                 >
                     {title}
-                </h3>
+                </h2>
             )}
             {flexOrGrid ? (
                 flexOrGrid === "grid" ? (

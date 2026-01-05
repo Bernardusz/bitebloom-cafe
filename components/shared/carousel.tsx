@@ -32,7 +32,7 @@ export function CarouselComponent({
                         align: "center",
                     }}
                     plugins={[plugin.current]}
-                    className="w-full"
+                    className="w-full xl:hidden"
                     onMouseEnter={plugin.current.stop}
                     onMouseLeave={plugin.current.reset}
                 >

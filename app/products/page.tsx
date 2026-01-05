@@ -1,178 +1,46 @@
 import CallToAction from "@/components/sections/callToAction";
-import { CarouselComponent } from "@/components/shared/carousel";
-import ImageContainer from "@/components/shared/image";
-import ProductsCard from "@/components/shared/productsCard";
-import TitleParagraph from "@/components/shared/titleParagraph";
-import TitleSection from "@/components/shared/titleSection";
-import productsData from "@/data/products.json"
+import BestSellers from "@/components/sections/index/bestSellers";
+import BeveragesSection from "@/components/sections/products/beverages";
+import CakesSection from "@/components/sections/products/cakes";
+import CoffeeSection from "@/components/sections/products/coffee";
+import PastriesSection from "@/components/sections/products/pastries";
+import ProductsHero from "@/components/sections/products/prodcutsHero";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Products",
+  description:
+    "Explore BiteBloom Café’s pastries, cakes, and specialty coffee—crafted for everyday moments.",
+  openGraph: {
+    title: "Products | BiteBloom Café",
+    description:
+      "Explore pastries, cakes, and specialty coffee at BiteBloom Café.",
+    images: ["/images/products-hero.jpg"],
+  },
+};
+
+export type product = {
+    title: string;
+    text: string;
+    imageSrc: string;
+    imageAlt: string;
+    price: number;
+};
+
+export type productsProps = {
+    productsData: product[];
+};
 
 export default function Products() {
     return (
-		<main>
-			<section className="section flex flex-col xl:flex-row gap-8 items-start xl:items-center">
-				<ImageContainer
-					imageSrc="/images/about-hero.jpg"
-					imageAlt="Hero section's images"
-					className="w-full xl:w-1/2 h-[60vh]"
-					rounded
-				/>
-				<TitleParagraph
-					variant="h1"
-					title="Products"
-					text="Freshly baked pastries and carefully crafted drinks, made everyday."
-				/>
-			</section>
-			<TitleSection
-				title="Our best sellers"
-			>
-				<CarouselComponent hideOnDesktop>
-					{productsData.bestSellers.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</CarouselComponent>
-				<div className="hidden xl:grid grid-cols-4 gap-8">
-					{productsData.bestSellers.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</div>
-			</TitleSection>
-			<TitleSection
-				title="Pastries"
-			>
-				<CarouselComponent hideOnDesktop>
-					{productsData.categories.pastries.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</CarouselComponent>
-				<div className="hidden xl:grid grid-cols-4 gap-8">
-					{productsData.categories.pastries.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</div>
-			</TitleSection>
-			<TitleSection
-				title="Cakes"
-			>
-				<CarouselComponent hideOnDesktop>
-					{productsData.categories.cakes.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</CarouselComponent>
-				<div className="hidden xl:grid grid-cols-4 gap-8">
-					{productsData.categories.cakes.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</div>
-			</TitleSection>
-						<TitleSection
-				title="Coffee"
-			>
-				<CarouselComponent hideOnDesktop>
-					{productsData.categories.coffees.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</CarouselComponent>
-				<div className="hidden xl:grid grid-cols-4 gap-8">
-					{productsData.categories.coffees.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</div>
-			</TitleSection>
-						<TitleSection
-				title="Beverages"
-			>
-				<CarouselComponent hideOnDesktop>
-					{productsData.categories.beverages.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</CarouselComponent>
-				<div className="hidden xl:grid grid-cols-4 gap-8">
-					{productsData.categories.beverages.map((product, index) => (
-						<ProductsCard
-							title={product.title}
-							text={product.text}
-							imageSrc={product.imageSrc}
-							imageAlt={product.imageAlt}
-							key={index}
-							price={product.price}
-							className="h-full"
-						/>
-					))}
-				</div>
-			</TitleSection>
-			<CallToAction withoutSecondary={true}/>
-		</main>
-	);
+        <main className="page">
+            <ProductsHero/>
+            <BestSellers/>
+			<PastriesSection/>
+            <CakesSection/>
+			<CoffeeSection/>
+			<BeveragesSection/>
+            <CallToAction withoutSecondary={true} />
+        </main>
+    );
 }

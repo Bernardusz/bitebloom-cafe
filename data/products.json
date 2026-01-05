@@ -1,273 +1,273 @@
 {
-  "bestSellers": [
-    {
-      "title": "Butter Croissant",
-      "text": "A freshly baked, crisp, and buttery croissant.",
-      "imageSrc": "/images/croissant.jpg",
-      "imageAlt": "An image of Croissant",
-      "price": 2.00
-    },
-    {
-      "title": "Pain Au Chocolat",
-      "text": "A warm, buttery, and flaky pain au chocolat with rich chocolate that melts in your mouth.",
-      "imageSrc": "/images/pain-au-chocolat.jpg",
-      "imageAlt": "An image of Pain Au Chocolat",
-      "price": 2.3
-    },
-    {
-      "title": "Opera Cake",
-      "text": "A rich blend of chocolate and coffee layered into pure happiness.",
-      "imageSrc": "/images/opera-cake.jpg",
-      "imageAlt": "An image of Opera Cake",
-      "price": 4.2
-    },
-    {
-      "title": "Latte",
-      "text": "A creamy, smooth, and comforting coffee to start your day right.",
-      "imageSrc": "/images/latte.jpg",
-      "imageAlt": "An image of Latte",
-      "price": 2.8
+    "bestSellers": [
+        {
+            "title": "Butter Croissant",
+            "text": "A freshly baked, crisp, and buttery croissant.",
+            "imageSrc": "/images/croissant.jpg",
+            "imageAlt": "An image of Croissant",
+            "price": 2.0
+        },
+        {
+            "title": "Pain Au Chocolat",
+            "text": "A warm, buttery, and flaky pain au chocolat with rich chocolate that melts in your mouth.",
+            "imageSrc": "/images/pain-au-chocolat.jpg",
+            "imageAlt": "An image of Pain Au Chocolat",
+            "price": 2.3
+        },
+        {
+            "title": "Opera Cake",
+            "text": "A rich blend of chocolate and coffee layered into pure happiness.",
+            "imageSrc": "/images/opera-cake.jpg",
+            "imageAlt": "An image of Opera Cake",
+            "price": 4.2
+        },
+        {
+            "title": "Latte",
+            "text": "A creamy, smooth, and comforting coffee to start your day right.",
+            "imageSrc": "/images/latte.jpg",
+            "imageAlt": "An image of Latte",
+            "price": 2.8
+        }
+    ],
+    "categories": {
+        "pastries": [
+            {
+                "title": "Butter Croissant",
+                "text": "A freshly baked, crisp, and buttery croissant.",
+                "imageSrc": "/images/croissant.jpg",
+                "imageAlt": "An image of Croissant",
+                "price": 2.0
+            },
+            {
+                "title": "Pain Au Chocolat",
+                "text": "A warm, buttery, and flaky pain au chocolat with rich chocolate that melts in your mouth.",
+                "imageSrc": "/images/pain-au-chocolat.jpg",
+                "imageAlt": "An image of Pain Au Chocolat",
+                "price": 2.3
+            },
+            {
+                "title": "Almond Croissant",
+                "text": "A sweet, twice-baked pastry filled with a thick, nutty frangipane and topped with crunchy toasted almonds and powdered sugar.",
+                "imageSrc": "/images/croissant.jpg",
+                "imageAlt": "An image of Croissant",
+                "price": 2.7
+            },
+            {
+                "title": "Hazelnut Croissant",
+                "text": "Hazelnut Croissant: A decadent, golden-brown treat featuring a roasted hazelnut cream filling that offers an earthy, praline-like sweetness in every bite.",
+                "imageSrc": "/images/pain-au-chocolat.jpg",
+                "imageAlt": "An image of Pain Au Chocolat",
+                "price": 2.7
+            },
+            {
+                "title": "Cinnamon Roll",
+                "text": "A soft, gooey swirl of spiced dough packed with aromatic cinnamon and a deep, caramelized brown sugar glaze.",
+                "imageSrc": "/images/croissant.jpg",
+                "imageAlt": "An image of Croissant",
+                "price": 2.5
+            },
+            {
+                "title": "Vanilla Crème Danish",
+                "text": "A light, laminated pastry cradling a pool of silky-smooth custard that is infused with the floral and elegant notes of real vanilla.",
+                "imageSrc": "/images/pain-au-chocolat.jpg",
+                "imageAlt": "An image of Pain Au Chocolat",
+                "price": 2.8
+            },
+            {
+                "title": "Apple Turnover",
+                "text": "A crisp, sugar-dusted puff pastry filled with tender, cinnamon-spiced apple chunks that have a bright, tart acidity.",
+                "imageSrc": "/images/croissant.jpg",
+                "imageAlt": "An image of Croissant",
+                "price": 2.4
+            },
+            {
+                "title": "Raspberry Danish",
+                "text": "A buttery, flaky nest containing a vibrant, jammy raspberry center that pops with a refreshing and tangy fruit flavor.",
+                "imageSrc": "/images/pain-au-chocolat.jpg",
+                "imageAlt": "An image of Pain Au Chocolat",
+                "price": 2.8
+            },
+            {
+                "title": "Lemon Tartlet",
+                "text": "A buttery shortbread crust filled with a punchy, velvety lemon curd that perfectly balances sharp citrus zing with a sweet finish.",
+                "imageSrc": "/images/croissant.jpg",
+                "imageAlt": "An image of Croissant",
+                "price": 3.2
+            },
+            {
+                "title": "Mini Quiche Lorraine",
+                "text": "A savory, melt-in-your-mouth pastry crust filled with a smoky, peppery egg custard and the rich, salty depth of bacon and cheese.",
+                "imageSrc": "/images/pain-au-chocolat.jpg",
+                "imageAlt": "An image of Pain Au Chocolat",
+                "price": 3.5
+            }
+        ],
+        "cakes": [
+            {
+                "title": "Opera Cake",
+                "text": "A rich blend of chocolate and coffee layered into pure happiness.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 4.2
+            },
+            {
+                "title": "Chocolate Ganache Cake",
+                "text": "An ultra-rich, velvety cake enrobed in a dense, glossy chocolate ganache that delivers a deep, bittersweet cocoa intensity in every bite.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 3.9
+            },
+            {
+                "title": "Vanilla Cheesecake",
+                "text": "A creamy, dense, and silky-smooth cheesecake with a buttery graham cracker crust and a clean, elegant punch of pure vanilla bean.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 4.0
+            },
+            {
+                "title": "Lemon Meringue Cake",
+                "text": "A bright and zesty cake layered with punchy lemon curd and topped with airy, toasted marshmallow-like meringue that melts on your tongue.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 3.8
+            },
+            {
+                "title": "Carrot Cake",
+                "text": "A moist, warmly spiced cake packed with grated carrots and toasted walnuts, smothered in a thick, tangy, and sweet cream cheese frosting.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 3.7
+            },
+            {
+                "title": "Tiramisu Slice",
+                "text": "A light and airy Italian classic made of espresso-soaked ladyfingers and whipped mascarpone cream, finished with a heavy dusting of bitter cocoa powder.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 4.1
+            },
+            {
+                "title": "Red Velvet Cake",
+                "text": "A strikingly crimson, soft-crumbed cake with a subtle hint of cocoa and a signature tang, perfectly complemented by a rich and velvety cream cheese icing.",
+                "imageSrc": "/images/opera-cake.jpg",
+                "imageAlt": "An image of Opera Cake",
+                "price": 4.0
+            }
+        ],
+        "coffees": [
+            {
+                "title": "Latte",
+                "text": "A creamy, smooth, and comforting coffee to start your day right.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 2.8
+            },
+            {
+                "title": "Espresso",
+                "text": "A concentrated, bold, and intense shot of coffee with a syrupy texture and a golden layer of crema that packs a punch of roasted bitterness and acidity.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 1.6
+            },
+            {
+                "title": "Americano",
+                "text": "A smooth, robust, and diluted espresso drink that maintains a deep coffee flavor with a lighter body similar to a traditional black coffee.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "an Image of Latte",
+                "price": 2.0
+            },
+            {
+                "title": "Cappuccino",
+                "text": "A perfectly balanced, airy, and creamy delight featuring equal parts espresso, steamed milk, and a thick, velvety head of dry milk foam.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 2.5
+            },
+            {
+                "title": "Flat White",
+                "text": "A strong, velvety, and micro-foam topped coffee that delivers a higher ratio of espresso to milk for a punchier flavor and a seamless, liquid-silk texture.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 3.0
+            },
+            {
+                "title": "Mocha",
+                "text": "A rich, indulgent, and chocolatey treat that blends espresso with steamed milk and a decadent cocoa syrup for a dessert-like coffee experience.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 3.2
+            },
+            {
+                "title": "Caramel Latte",
+                "text": "A sweet, buttery, and luxurious twist on the classic latte, infused with toasted caramel notes that linger on the palate.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 3.3
+            },
+            {
+                "title": "Iced Latte",
+                "text": "A refreshing, chilled, and milky espresso drink poured over ice that offers a crisp and clean caffeine kick perfect for a sunny afternoon.",
+                "imageSrc": "/images/latte.jpg",
+                "imageAlt": "An image of Latte",
+                "price": 3.2
+            }
+        ],
+        "beverages": [
+            {
+                "title": "Hot Chocolate",
+                "text": "A rich, comforting, and deeply cocoa-heavy beverage made with steamed milk for a thick, hug-in-a-mug chocolate experience.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 3.0
+            },
+            {
+                "title": "Peach Iced Tea",
+                "text": "A smooth, chilled black tea infused with the floral sweetness of ripe peaches for a perfectly balanced and fruity thirst-quencher.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 2.6
+            },
+            {
+                "title": "Mineral Water",
+                "text": "A clean, crisp, and neutral palate cleanser that provides a refreshing hydration with a subtle, stony hint of natural minerals.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 1.5
+            },
+            {
+                "title": "Matcha Latte",
+                "text": "A vibrant, earthy, and velvety smooth green tea drink whisked with creamy milk for a unique balance of grassy notes and mellow sweetness.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 3.5
+            },
+            {
+                "title": "Elderflower Sparkling Drink",
+                "text": "A light, elegant, and sophisticated floral soda with delicate hints of lychee and pear that feels incredibly crisp and airy.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 2.9
+            },
+            {
+                "title": "Apple Juice",
+                "text": "A sweet, crisp, and nostalgic fruit juice that delivers the mellow, honeyed flavor of pressed orchard-fresh apples.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 2.4
+            },
+            {
+                "title": "Fresh Orange Juice",
+                "text": "A bright, zesty, and naturally sweet juice packed with pulp and a refreshing citrus tang that tastes like pure sunshine.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 3.2
+            },
+            {
+                "title": "Sparkling Lemonade",
+                "text": "A crisp, bubbly, and effervescent drink that balances sharp, puckering lemon acidity with a clean, sugary finish.",
+                "imageSrc": "/images/hot-choco.jpg",
+                "imageAlt": "An Image of hot chocolate",
+                "price": 2.8
+            }
+        ]
     }
-  ],
-  "categories": {
-    "pastries": [
-      {
-        "title": "Butter Croissant",
-        "text": "A freshly baked, crisp, and buttery croissant.",
-        "imageSrc": "/images/croissant.jpg",
-        "imageAlt": "An image of Croissant",
-        "price": 2.0
-      },
-      {
-        "title": "Pain Au Chocolat",
-        "text": "A warm, buttery, and flaky pain au chocolat with rich chocolate that melts in your mouth.",
-        "imageSrc": "/images/pain-au-chocolat.jpg",
-        "imageAlt": "An image of Pain Au Chocolat",
-        "price": 2.3
-      },
-      {
-        "title": "Almond Croissant",
-        "text": "A sweet, twice-baked pastry filled with a thick, nutty frangipane and topped with crunchy toasted almonds and powdered sugar.",
-        "imageSrc": "/images/croissant.jpg",
-        "imageAlt": "An image of Croissant",
-        "price": 2.7
-      },
-      {
-        "title": "Hazelnut Croissant",
-        "text": "Hazelnut Croissant: A decadent, golden-brown treat featuring a roasted hazelnut cream filling that offers an earthy, praline-like sweetness in every bite.",
-        "imageSrc": "/images/pain-au-chocolat.jpg",
-        "imageAlt": "An image of Pain Au Chocolat",
-        "price": 2.7
-      },
-      {
-        "title": "Cinnamon Roll",
-        "text": "A soft, gooey swirl of spiced dough packed with aromatic cinnamon and a deep, caramelized brown sugar glaze.",
-        "imageSrc": "/images/croissant.jpg",
-        "imageAlt": "An image of Croissant",
-        "price": 2.5
-      },
-      {
-        "title": "Vanilla Crème Danish",
-        "text": "A light, laminated pastry cradling a pool of silky-smooth custard that is infused with the floral and elegant notes of real vanilla.",
-        "imageSrc": "/images/pain-au-chocolat.jpg",
-        "imageAlt": "An image of Pain Au Chocolat",
-        "price": 2.8
-      },
-      {
-        "title": "Apple Turnover",
-        "text": "A crisp, sugar-dusted puff pastry filled with tender, cinnamon-spiced apple chunks that have a bright, tart acidity.",
-        "imageSrc": "/images/croissant.jpg",
-        "imageAlt": "An image of Croissant",
-        "price": 2.4
-      },
-      {
-        "title": "Raspberry Danish",
-        "text": "A buttery, flaky nest containing a vibrant, jammy raspberry center that pops with a refreshing and tangy fruit flavor.",
-        "imageSrc": "/images/pain-au-chocolat.jpg",
-        "imageAlt": "An image of Pain Au Chocolat",
-        "price": 2.8
-      },
-      {
-        "title": "Lemon Tartlet",
-        "text": "A buttery shortbread crust filled with a punchy, velvety lemon curd that perfectly balances sharp citrus zing with a sweet finish.",
-        "imageSrc": "/images/croissant.jpg",
-        "imageAlt": "An image of Croissant",
-        "price": 3.2
-      },
-      {
-        "title": "Mini Quiche Lorraine",
-        "text": "A savory, melt-in-your-mouth pastry crust filled with a smoky, peppery egg custard and the rich, salty depth of bacon and cheese.",
-        "imageSrc": "/images/pain-au-chocolat.jpg",
-        "imageAlt": "An image of Pain Au Chocolat",
-        "price": 3.5
-      }
-    ],
-    "cakes": [
-      {
-        "title": "Opera Cake",
-        "text": "A rich blend of chocolate and coffee layered into pure happiness.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 4.2
-      },
-      {
-        "title": "Chocolate Ganache Cake",
-        "text": "An ultra-rich, velvety cake enrobed in a dense, glossy chocolate ganache that delivers a deep, bittersweet cocoa intensity in every bite.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 3.9
-      },
-      {
-        "title": "Vanilla Cheesecake",
-        "text": "A creamy, dense, and silky-smooth cheesecake with a buttery graham cracker crust and a clean, elegant punch of pure vanilla bean.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 4.0
-      },
-      {
-        "title": "Lemon Meringue Cake",
-        "text": "A bright and zesty cake layered with punchy lemon curd and topped with airy, toasted marshmallow-like meringue that melts on your tongue.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 3.8
-      },
-      {
-        "title": "Carrot Cake",
-        "text": "A moist, warmly spiced cake packed with grated carrots and toasted walnuts, smothered in a thick, tangy, and sweet cream cheese frosting.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 3.7
-      },
-      {
-        "title": "Tiramisu Slice",
-        "text": "A light and airy Italian classic made of espresso-soaked ladyfingers and whipped mascarpone cream, finished with a heavy dusting of bitter cocoa powder.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 4.1
-      },
-      {
-        "title": "Red Velvet Cake",
-        "text": "A strikingly crimson, soft-crumbed cake with a subtle hint of cocoa and a signature tang, perfectly complemented by a rich and velvety cream cheese icing.",
-        "imageSrc": "/images/opera-cake.jpg",
-        "imageAlt": "An image of Opera Cake",
-        "price": 4.0
-      }
-    ],
-    "coffees": [
-      {
-        "title": "Latte",
-        "text": "A creamy, smooth, and comforting coffee to start your day right.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 2.8
-      },
-      {
-        "title": "Espresso",
-        "text": "A concentrated, bold, and intense shot of coffee with a syrupy texture and a golden layer of crema that packs a punch of roasted bitterness and acidity.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 1.6
-      },
-      {
-        "title": "Americano",
-        "text": "A smooth, robust, and diluted espresso drink that maintains a deep coffee flavor with a lighter body similar to a traditional black coffee.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "an Image of Latte",
-        "price": 2.0
-      },
-      {
-        "title": "Cappuccino",
-        "text": "A perfectly balanced, airy, and creamy delight featuring equal parts espresso, steamed milk, and a thick, velvety head of dry milk foam.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 2.5
-      },
-      {
-        "title": "Flat White",
-        "text": "A strong, velvety, and micro-foam topped coffee that delivers a higher ratio of espresso to milk for a punchier flavor and a seamless, liquid-silk texture.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 3.0
-      },
-      {
-        "title": "Mocha",
-        "text": "A rich, indulgent, and chocolatey treat that blends espresso with steamed milk and a decadent cocoa syrup for a dessert-like coffee experience.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 3.2
-      },
-      {
-        "title": "Caramel Latte",
-        "text": "A sweet, buttery, and luxurious twist on the classic latte, infused with toasted caramel notes that linger on the palate.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 3.3
-      },
-      {
-        "title": "Iced Latte",
-        "text": "A refreshing, chilled, and milky espresso drink poured over ice that offers a crisp and clean caffeine kick perfect for a sunny afternoon.",
-        "imageSrc": "/images/latte.jpg",
-        "imageAlt": "An image of Latte",
-        "price": 3.2
-      }
-    ],
-    "beverages": [
-      {
-        "title": "Hot Chocolate",
-        "text": "A rich, comforting, and deeply cocoa-heavy beverage made with steamed milk for a thick, hug-in-a-mug chocolate experience.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 3.0
-      },
-      {
-        "title": "Peach Iced Tea",
-        "text": "A smooth, chilled black tea infused with the floral sweetness of ripe peaches for a perfectly balanced and fruity thirst-quencher.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 2.6
-      },
-      {
-        "title": "Mineral Water",
-        "text": "A clean, crisp, and neutral palate cleanser that provides a refreshing hydration with a subtle, stony hint of natural minerals.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 1.5
-      },
-      {
-        "title": "Matcha Latte",
-        "text": "A vibrant, earthy, and velvety smooth green tea drink whisked with creamy milk for a unique balance of grassy notes and mellow sweetness.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 3.5
-      },
-      {
-        "title": "Elderflower Sparkling Drink",
-        "text": "A light, elegant, and sophisticated floral soda with delicate hints of lychee and pear that feels incredibly crisp and airy.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 2.9
-      },
-      {
-        "title": "Apple Juice",
-        "text": "A sweet, crisp, and nostalgic fruit juice that delivers the mellow, honeyed flavor of pressed orchard-fresh apples.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 2.4
-      },
-      {
-        "title": "Fresh Orange Juice",
-        "text": "A bright, zesty, and naturally sweet juice packed with pulp and a refreshing citrus tang that tastes like pure sunshine.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 3.2
-      },
-      {
-        "title": "Sparkling Lemonade",
-        "text": "A crisp, bubbly, and effervescent drink that balances sharp, puckering lemon acidity with a clean, sugary finish.",
-        "imageSrc": "/images/hot-choco.jpg",
-        "imageAlt": "An Image of hot chocolate",
-        "price": 2.8
-      }
-    ]
-  }
 }
