@@ -17,7 +17,7 @@ export default function MeetingRoom() {
                     <ServerImagesSection data={indexData.meetingRoom} />
                 </div>
 
-                <div className="xl:hidden h-fit w-full">
+                <div className="carousel-section">
                     <ClientCarouselImages data={indexData.meetingRoom} />
                 </div>
                 <TitleParagraph

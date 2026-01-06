@@ -7,7 +7,7 @@ export default function TestimonySection() {
     return (
         <TitleSection
             title="Our Testimony"
-            className="w-full flex flex-col gap-8 xl:flex-row"
+            className="justify-center items-center w-full flex flex-col gap-8 xl:flex-row"
             paragraph="Don't just take our words, take theirs as well!"
         >
             <CarouselComponent>

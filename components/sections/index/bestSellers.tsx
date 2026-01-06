@@ -10,7 +10,7 @@ export default function BestSellers() {
                 <ServerGridSection productsData={productsData.bestSellers} />
             </div>
 
-            <div className="xl:hidden">
+            <div className="carousel-section">
                 <ClientCarouselSection
                     productsData={productsData.bestSellers}
                 />

@@ -5,14 +5,14 @@ import ClientCarouselSection from "@/components/sections/client/clientCarousel";
 
 export default function CakesSection() {
     return (
-        <TitleSection title="Our best sellers">
+        <TitleSection title="Cakes">
             <div className="hidden xl:block">
                 <ServerGridSection
                     productsData={productsData.categories.cakes}
                 />
             </div>
 
-            <div className="xl:hidden">
+            <div className="carousel-section">
                 <ClientCarouselSection
                     productsData={productsData.categories.cakes}
                 />

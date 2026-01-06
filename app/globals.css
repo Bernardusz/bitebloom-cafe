@@ -142,7 +142,7 @@
 
 @layer components {
     .page {
-        @apply flex h-fit w-full flex-col items-center justify-center pt-4 xl:pt-10 gap-8;
+        @apply flex h-fit w-full xl:overflow-visible overflow-hidden flex-col items-center justify-center pt-4 xl:pt-10 gap-8;
     }
     .p-deemphasize {
         @apply text-muted-foreground text-sm font-normal font-main;
@@ -162,4 +162,7 @@
     .link-btn {
         @apply bg-primary text-primary-foreground hover:bg-primary/90 min-h-8 min-w-16 hover:scale-105 transition-transform duration-300 h-9 px-4 py-2 has-[>svg]:px-3;
     }
+	.carousel-section {
+		@apply xl:hidden flex items-center w-full h-fit justify-center
+	}
 }

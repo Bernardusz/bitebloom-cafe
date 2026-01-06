@@ -50,7 +50,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} ${playfair.variable} font-body antialiased`}
+                className={`${inter.variable} ${playfair.variable} font-body antialiased max-w-[100vw]`}
             >
                 <Header />
                 <ClientInitializer />

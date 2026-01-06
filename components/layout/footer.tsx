@@ -115,7 +115,7 @@ export default function Footer() {
                     </div>
                     <div></div>
                 </div>
-                <div className="mt-8 border-t pt-8 text-center md:text-left flex flex-row justify-between">
+                <div className="mt-8 border-t pt-8 text-center md:text-left flex flex-col-reverse gap-8 xl:gap-0 xl:flex-row justify-between">
                     <p>
                         © 2025 Bitebloom Cafe •{" "}
                         <Link href="/credits" className="link-primary">

@@ -55,7 +55,7 @@ export function CarouselComponent({
                 align: "center",
             }}
             plugins={[plugin.current]}
-            className="w-full"
+            className="w-full max-w-[78vw] sm:max-w-400"
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
         >
