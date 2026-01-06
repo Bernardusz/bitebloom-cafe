@@ -9,12 +9,14 @@ import { Armchair, Coffee, Croissant, Euro } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  description: "A fictional artisan café serving specialty coffee and pastries in Debrecen.",
-	openGraph: {
-    title: "BiteBloom Café",
-  	description: "A fictional artisan café serving specialty coffee and pastries in Debrecen.",
-    images: ["/images/index-hero.jpg"],
-  },
+    description:
+        "A fictional artisan café serving specialty coffee and pastries in Debrecen.",
+    openGraph: {
+        title: "BiteBloom Café",
+        description:
+            "A fictional artisan café serving specialty coffee and pastries in Debrecen.",
+        images: ["/images/index-hero.jpg"],
+    },
 };
 
 export const indexData = {
@@ -123,8 +125,8 @@ export default function Home() {
             <BrandIdentitiy />
             <BestSellers />
             <MeetingRoom />
-			<BenefitsSection/>
-			<TestimonySection/>
+            <BenefitsSection />
+            <TestimonySection />
             <CallToAction />
         </main>
     );

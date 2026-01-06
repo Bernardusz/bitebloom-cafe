@@ -12,6 +12,7 @@ export default function ContactSection() {
                 imageSrc="/images/location-interior.jpg"
                 imageAlt="A here section image"
                 rounded
+                eager
             />
             <div className="flex flex-col gap-8 w-full xl:max-w-1/2">
                 <TitleParagraph

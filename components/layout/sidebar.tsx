@@ -65,9 +65,9 @@ export default function Sidebar() {
                                     <li>
                                         <Link
                                             onClick={toggleSidebar}
-                                            href="/location"
+                                            href="/find-us"
                                         >
-                                            Location
+                                            Find Us
                                         </Link>
                                     </li>
                                 </ul>

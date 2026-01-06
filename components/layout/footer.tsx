@@ -1,15 +1,18 @@
 import BiteBloomLogo from "@/components/shared/logo";
 import Link from "next/link";
+import { Github, Instagram, Linkedin } from "lucide-react";
 export default function Footer() {
     return (
         <footer className="flex w-full flex-col items-center justify-center border-y mt-20">
             <div className="mt-4 flex w-full max-w-400 flex-col justify-center gap-4 p-12">
                 <div className="flex h-fit w-full flex-col gap-6 xl:flex-row">
                     <div className="flex flex-col gap-2 xl:w-1/2">
-                        <div className="flex flex-row items-center justify-start gap-2">
-                            <BiteBloomLogo className="text-foreground aspect-square size-10" />
-                            <h4>Bitebloom Cafe</h4>
-                        </div>
+                        <Link href="/">
+                            <div className="flex flex-row items-center justify-start gap-2">
+                                <BiteBloomLogo className="text-foreground aspect-square size-10" />
+                                <h4>Bitebloom Cafe</h4>
+                            </div>
+                        </Link>
                         <p>
                             A modern café focused on comfort, quality dining,
                             and thoughtful amenities.
@@ -101,17 +104,9 @@ export default function Footer() {
                                     <li>
                                         <Link
                                             className="text-foreground"
-                                            href="/location"
+                                            href="/find-us"
                                         >
-                                            Location
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className="text-foreground"
-                                            href="/contact"
-                                        >
-                                            Contact
+                                            Find Us
                                         </Link>
                                     </li>
                                 </ul>
@@ -120,13 +115,29 @@ export default function Footer() {
                     </div>
                     <div></div>
                 </div>
-                <div className="mt-8 border-t pt-8 text-center md:text-left">
+                <div className="mt-8 border-t pt-8 text-center md:text-left flex flex-row justify-between">
                     <p>
                         © 2025 Bitebloom Cafe •{" "}
                         <Link href="/credits" className="link-primary">
                             Image Credits
                         </Link>
                     </p>
+                    <div className="flex gap-6 justify-center text-muted-foreground">
+                        <Link href="#" aria-label="Instagram">
+                            <Instagram />
+                        </Link>
+                        <Link href="#" aria-label="LinkedIn">
+                            <Linkedin />
+                        </Link>
+                        <a
+                            href="https://github.com/Bernardusz/bitebloom-cafe"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="GitHub"
+                        >
+                            <Github />
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>

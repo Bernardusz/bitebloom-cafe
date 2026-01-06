@@ -38,6 +38,7 @@ export default function ProductsCard({
                             src={imageSrc}
                             alt={imageAlt ?? "an image"}
                             fill
+                            sizes="100%"
                             className="object-cover"
                         />
                     </div>

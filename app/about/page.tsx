@@ -15,13 +15,15 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us",
- description: "Learn about BiteBloom Café’s fictional origins, values, and team.", 
-  openGraph: {
-    title: "Products | BiteBloom Café",
-    description: "Learn about BiteBloom Café’s fictional origins, values, and team.",
-	images: ["/images/about-hero.jpg"],
-  },
+    title: "About Us",
+    description:
+        "Learn about BiteBloom Café’s fictional origins, values, and team.",
+    openGraph: {
+        title: "Products | BiteBloom Café",
+        description:
+            "Learn about BiteBloom Café’s fictional origins, values, and team.",
+        images: ["/images/about-hero.jpg"],
+    },
 };
 
 export const aboutData = {
@@ -92,10 +94,10 @@ export const aboutData = {
 export default function About() {
     return (
         <main className="page">
-            <AboutHero/>
-            <FounderSection/>
-            <TeamSection/>
-            <HistorySection/>
+            <AboutHero />
+            <FounderSection />
+            <TeamSection />
+            <HistorySection />
             <CallToAction />
         </main>
     );

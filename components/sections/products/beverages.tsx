@@ -6,18 +6,17 @@ import ClientCarouselSection from "@/components/sections/client/clientCarousel";
 export default function BeveragesSection() {
     return (
         <TitleSection title="Our best sellers">
-                <div className="hidden xl:block">
-                    <ServerGridSection
-                        productsData={productsData.categories.beverages}
-                    />
-                </div>
+            <div className="hidden xl:block">
+                <ServerGridSection
+                    productsData={productsData.categories.beverages}
+                />
+            </div>
 
-                <div className="xl:hidden">
-                    <ClientCarouselSection
-                        productsData={productsData.categories.beverages}
-                    />
-                </div>
-            </TitleSection>
-		
+            <div className="xl:hidden">
+                <ClientCarouselSection
+                    productsData={productsData.categories.beverages}
+                />
+            </div>
+        </TitleSection>
     );
 }

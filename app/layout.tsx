@@ -17,31 +17,30 @@ export const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bitebloom-cafe.vercel.app"),
+    metadataBase: new URL("https://bitebloom-cafe.vercel.app"),
 
-  title: {
-    default: "BiteBloom Café",
-    template: "%s | BiteBloom Café",
-  },
+    title: {
+        default: "BiteBloom Café",
+        template: "%s | BiteBloom Café",
+    },
 
-  description:
-    "BiteBloom Café is a fictional artisan café serving pastries, cakes, and specialty coffee in Debrecen.",
+    description:
+        "BiteBloom Café is a fictional artisan café serving pastries, cakes, and specialty coffee in Debrecen.",
 
-  robots: {
-    index: true,
-    follow: true,
-  },
+    robots: {
+        index: true,
+        follow: true,
+    },
 
-  openGraph: {
-    type: "website",
-    siteName: "BiteBloom Café",
-  },
+    openGraph: {
+        type: "website",
+        siteName: "BiteBloom Café",
+    },
 
-  twitter: {
-    card: "summary_large_image",
-  },
+    twitter: {
+        card: "summary_large_image",
+    },
 };
-
 
 export default function RootLayout({
     children,

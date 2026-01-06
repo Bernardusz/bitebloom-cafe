@@ -12,6 +12,8 @@ export default function HeroSection() {
                     src="/images/index-hero.jpg"
                     alt="A here section image"
                     fill
+                    loading="eager"
+                    sizes="100%"
                 />
             </div>
             <div className="w-full xl:w-1/2 px-8 xl:px-24 flex flex-col gap-6">

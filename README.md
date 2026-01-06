@@ -1,6 +1,99 @@
-## Credit
+# Bitebloom Cafe (Mock Cafe)
 
-> Temporary placeholder for credits, later I'll add separate /credits page
+> ☕ Bitebloom Cafe is a mock cafe created for the purpose of showing my UI/UX and Frontend skills.
+
+**Type:** Mock Cafe
+
+**Purpose:** Portfolio project to showcase layout, spacing, UI/UX and Frontend skills
+
+---
+
+## 🛠 Stack
+
+- **Frontend:** Next.js
+- **UI Components:** shadcn/ui
+- **Styling:** TailwindCSS
+- **SEO / Meta:** Next (Internal Metadata)
+
+---
+
+## 🖋 Typography
+
+- **Playfair Display** (used for headings)
+- **Inter** (used for body and paragraphs)
+
+---
+
+## 🎨 Color Palette
+
+**Dark Mode**
+
+| Element           | HSL        |
+| ----------------- | ---------- |
+| Background        | 10, 10, 5  |
+| Shade 1           | 10, 10, 10 |
+| Shade 2           | 10, 10, 15 |
+| Text              | 10, 10, 95 |
+| Text Paragraph    | 10, 10, 85 |
+| Text De-emphasize | 10, 10, 75 |
+
+**Light Mode**
+
+| Element           | HSL        |
+| ----------------- | ---------- |
+| Background        | 10, 10, 95 |
+| Shade 1           | 10, 10, 90 |
+| Shade 2           | 10, 10, 85 |
+| Text              | 10, 10, 5  |
+| Text Paragraph    | 10, 10, 15 |
+| Text De-emphasize | 10, 10, 25 |
+
+**Primary / Secondary Colors**
+
+| Color     | HSL         |
+| --------- | ----------- |
+| Primary   | 10, 60, 35  |
+| Secondary | 190, 60, 35 |
+
+---
+
+## 🗂 Core Pages
+
+- `/` – Landing page
+- `/products` – All the available products (Mock)
+- `/about` – Information about founder, team and history (Mock)
+- `/find-us` – Information about location, contact, social media, and opening hours
+- `/credits` - Credits for all the images used
+
+---
+
+## 🚀 Product Categories (Mock)
+
+- **Pastries** – The bread and butter of Café's life
+- **Cakes** – Sweet and tasty, another bread and butter of life
+- **Coffee** – From bitter to sweet and tasty coffee.
+- **Beverages** – An alternative to people who don't want caffeine
+
+---
+
+## 🏃 Getting Started
+
+1. Clone repo
+2. Install dependencies: `pnpm install`
+3. Start dev server: `pnpm run dev`
+4. Open browser at `http://localhost:3000`
+
+---
+
+## ⚡ Notes
+
+- This project is **mock Café for portfolio purposes only**.
+- Illustrates **portfolio-frontend thinking**, **page designs**, **UI/UX**, and **deployment flow**.
+- Built to **showcase UI/UX skills** rather than operate as a live Café website
+
+---
+
+## Credit
 
 - Photo by Lisa from Pexels: https://www.pexels.com/photo/leather-chairs-in-restaurant-2193600/
 - Photo by <a href="https://unsplash.com/@moisamihai092?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mihai Moisa</a> on <a href="https://unsplash.com/photos/black-chairs-Djtc1T38-GY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

@@ -8,15 +8,15 @@ import ProductsHero from "@/components/sections/products/prodcutsHero";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Products",
-  description:
-    "Explore BiteBloom Café’s pastries, cakes, and specialty coffee—crafted for everyday moments.",
-  openGraph: {
-    title: "Products | BiteBloom Café",
+    title: "Products",
     description:
-      "Explore pastries, cakes, and specialty coffee at BiteBloom Café.",
-    images: ["/images/products-hero.jpg"],
-  },
+        "Explore BiteBloom Café’s pastries, cakes, and specialty coffee—crafted for everyday moments.",
+    openGraph: {
+        title: "Products | BiteBloom Café",
+        description:
+            "Explore pastries, cakes, and specialty coffee at BiteBloom Café.",
+        images: ["/images/products-hero.jpg"],
+    },
 };
 
 export type product = {
@@ -34,12 +34,12 @@ export type productsProps = {
 export default function Products() {
     return (
         <main className="page">
-            <ProductsHero/>
-            <BestSellers/>
-			<PastriesSection/>
-            <CakesSection/>
-			<CoffeeSection/>
-			<BeveragesSection/>
+            <ProductsHero />
+            <BestSellers />
+            <PastriesSection />
+            <CakesSection />
+            <CoffeeSection />
+            <BeveragesSection />
             <CallToAction withoutSecondary={true} />
         </main>
     );
