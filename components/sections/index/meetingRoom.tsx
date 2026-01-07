@@ -28,7 +28,7 @@ export default function MeetingRoom() {
             </section>
             <div className="flex flex-col w-full xl:flex-row gap-2">
                 <Link
-                    href="/contact"
+                    href="/find-us"
                     className="w-full px-10 xl:px-16 justify-center items-center flex"
                 >
                     <Button className="btn-primary w-full">
@@ -36,7 +36,7 @@ export default function MeetingRoom() {
                     </Button>
                 </Link>
                 <Link
-                    href="/contact"
+                    href="/products"
                     className="w-full xl:px-16 justify-center items-center flex px-10"
                 >
                     <Button variant="secondary" className="btn-primary w-full">

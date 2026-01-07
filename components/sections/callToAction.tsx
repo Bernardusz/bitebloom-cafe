@@ -28,7 +28,7 @@ export default function CallToAction({
                 </div>
                 <div className="flex w-full flex-row justify-center gap-12 px-8">
                     <Link
-                        href="/location"
+                        href="/find-us"
                         className={clsx({
                             "w-full xl:max-w-60": withoutSecondary,
                         })}
