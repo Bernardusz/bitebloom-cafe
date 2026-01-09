@@ -102,7 +102,7 @@ export default function Sidebar() {
                                 </Link>
                                 <Link
                                     className="flex flex-row gap-2 items-center"
-                                    href="/location"
+                                    href="/find-us"
                                     onClick={toggleSidebar}
                                 >
                                     <MapPin size={20} />
@@ -111,7 +111,7 @@ export default function Sidebar() {
                                 <Link
                                     onClick={toggleSidebar}
                                     className="flex flex-row gap-2 items-center"
-                                    href="/contact"
+                                    href="/find-us"
                                 >
                                     <Armchair size={20} />
                                     <p>Book a Meeting Room</p>
